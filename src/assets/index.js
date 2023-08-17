@@ -28,6 +28,7 @@ import restCountries from "./Rest-countries.jpg";
 import calculator from './calculator.jpg'
 import jira from './jira-project.png'
 import bnb from './bnb.png'
+import porfolio from './porfolio.png'
 export {
   logo,
   backend,
@@ -56,5 +57,6 @@ export {
   calculator,
   cybersoft,
   jira,
-  bnb
+  bnb,
+  porfolio
 };

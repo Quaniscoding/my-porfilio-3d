@@ -16,7 +16,8 @@ import {
     cybersoft,
     calculator,
     jira,
-    bnb
+    bnb,
+    porfolio
 } from "../assets";
 
 export const navLinks = [
@@ -228,6 +229,28 @@ const projects = [
         image: restCountries,
         source_code_link: "https://github.com/Quaniscoding/rest-countries-with-color-theme",
         demo_code_link: "https://rest-countries-with-color-theme-zeta.vercel.app/HomePage"
+    },
+    {
+        name: "My porfolio 3d",
+        description:
+            "Showing my Porfolio",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Vite",
+                coolo: "blue-text-gradient"
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: porfolio,
+        source_code_link: "https://github.com/Quaniscoding/my-porfilio-3d",
+        demo_code_link: "https://my-porfilio-3d.vercel.app/"
     },
 ];
 
