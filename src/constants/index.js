@@ -17,7 +17,8 @@ import {
     calculator,
     jira,
     bnb,
-    porfolio
+    porfolio,
+    youtube_clone
 } from "../assets";
 
 export const navLinks = [
@@ -251,6 +252,24 @@ const projects = [
         image: porfolio,
         source_code_link: "https://github.com/Quaniscoding/my-porfilio-3d",
         demo_code_link: "https://my-porfilio-3d.vercel.app/"
+    },
+    {
+        name: "Youtube clone",
+        description:
+            "Website watching videos",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "MUI",
+                color: "",
+            },
+        ],
+        image: youtube_clone,
+        source_code_link: "https://github.com/Quaniscoding/youtube-clone",
+        demo_code_link: "https://youtube-clone-sigma-sandy.vercel.app"
     },
 ];
 

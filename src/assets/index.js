@@ -29,6 +29,7 @@ import calculator from './calculator.jpg'
 import jira from './jira-project.png'
 import bnb from './bnb.png'
 import porfolio from './porfolio.png'
+import youtube_clone from './youtube_clone.png'
 export {
   logo,
   backend,
@@ -58,5 +59,6 @@ export {
   cybersoft,
   jira,
   bnb,
-  porfolio
+  porfolio,
+  youtube_clone
 };
