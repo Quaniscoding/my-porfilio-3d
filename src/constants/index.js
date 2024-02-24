@@ -18,7 +18,9 @@ import {
     jira,
     bnb,
     porfolio,
-    youtube_clone
+    youtube_clone,
+    mongodb,
+    sql
 } from "../assets";
 
 export const navLinks = [
@@ -89,8 +91,16 @@ const technologies = [
         icon: git,
     },
     {
-        name: "docker",
+        name: "Docker",
         icon: docker,
+    },
+    {
+        name: "Mongodb",
+        icon: mongodb,
+    },
+    {
+        name: "SQL",
+        icon: sql,
     },
 ];
 
@@ -193,20 +203,24 @@ const projects = [
                 color: "yellow-text-gradient",
             },
             {
-                name: "Prisma",
-                color: "text-blue-900",
-            },
-            {
-                name: "MySql",
+                name: "MongoDB",
                 color: "",
             },
             {
                 name: "Swagger",
                 color: "green-text-gradient",
             },
+            {
+                name:"Multer",
+                color : ""
+            },
+            {
+                name:"bcrypt",
+                color:""
+            }
         ],
         image: bnb,
-        source_code_link: "https://github.com/Quaniscoding/capston-node-25",
+        source_code_link: "https://github.com/Quaniscoding/air-bnb-api",
         demo_code_link: ""
     },
     {

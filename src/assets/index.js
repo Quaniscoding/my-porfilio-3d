@@ -30,6 +30,7 @@ import jira from './jira-project.png'
 import bnb from './bnb.png'
 import porfolio from './porfolio.png'
 import youtube_clone from './youtube_clone.png'
+import sql from './tech/sql.png'
 export {
   logo,
   backend,
@@ -60,5 +61,6 @@ export {
   jira,
   bnb,
   porfolio,
-  youtube_clone
+  youtube_clone,
+  sql
 };

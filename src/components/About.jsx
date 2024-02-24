@@ -42,7 +42,7 @@ const About = () => {
       >
         I'm a new developer with Javascripts, and experient in Reactjs, NodeJs.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex justify-center flex-wrap gap-10">
         {services.map((service, index) => {
           return <ServiceCard key={service.title} index={index} {...service} />;
         })}
