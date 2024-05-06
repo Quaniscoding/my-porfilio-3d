@@ -31,6 +31,7 @@ import bnb from './bnb.png'
 import porfolio from './porfolio.png'
 import youtube_clone from './youtube_clone.png'
 import sql from './tech/sql.png'
+import wordpress from './tech/wordpress.png'
 export {
   logo,
   backend,
@@ -62,5 +63,6 @@ export {
   bnb,
   porfolio,
   youtube_clone,
-  sql
+  sql,
+  wordpress
 };

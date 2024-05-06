@@ -20,7 +20,8 @@ import {
     porfolio,
     youtube_clone,
     mongodb,
-    sql
+    sql,
+    wordpress
 } from "../assets";
 
 export const navLinks = [
@@ -102,6 +103,10 @@ const technologies = [
         name: "SQL",
         icon: sql,
     },
+    {
+        name: "Wordpress",
+        icon: wordpress
+    }
 ];
 
 const experiences = [
@@ -211,12 +216,12 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name:"Multer",
-                color : ""
+                name: "Multer",
+                color: ""
             },
             {
-                name:"bcrypt",
-                color:""
+                name: "bcrypt",
+                color: ""
             }
         ],
         image: bnb,
